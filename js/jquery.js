@@ -2420,7 +2420,6 @@
                     })
                 }, o = o("abort");
                 try {
-                    r.send(i.hasContent && i.data || null)
                 } catch (e) {
                     if (o) throw e
                 }
