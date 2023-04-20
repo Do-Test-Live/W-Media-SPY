@@ -6,7 +6,7 @@
             <use fill="#fff" fill-rule="evenodd" xlink:href="#a"/>
         </mask>
     </defs>
-    <g fill="#56335b" fill-rule="evenodd" transform="translate(-285 -41)">
+    <g fill="#25d366" fill-rule="evenodd" transform="translate(-285 -41)">
         <use opacity=".5" xlink:href="#a"/>
         <path d="m445.7 387.682c421.477 0 972.745 179.787 972.745 42.943s579.941-255.246 158.465-255.246-706.969-146.996-706.969-10.152c0 136.843-845.717 222.455-424.24 222.455z"
               mask="url(#b)" opacity=".5"/>

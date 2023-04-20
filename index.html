@@ -21,7 +21,11 @@
     <link href="demos/seo/css/fonts.css" rel="stylesheet" type="text/css"/>
     <link href="demos/seo/seo.css" rel="stylesheet" type="text/css"/>
 
-
+    <script>
+        if (location.protocol !== 'https:') {
+            location.replace(`https:${location.href.substring(location.protocol.length)}`);
+        }
+    </script>
     <title>Home | MediaSpy</title>
 </head>
 <body class="stretched">
@@ -80,10 +84,8 @@
                 <div class="header-row">
 
                     <div id="logo">
-                        <a class="standard-logo" data-dark-logo="images/logo.png" href="https://demo.ngt.hk/"><img
-                                alt="NGT Tech" src="images/logo.png"></a>
-                        <a class="retina-logo" data-dark-logo="images/logo-dark@2x.png" href="https://demo.ngt.hk/"><img
-                                alt="NGT Tech" src="images/logo-dark@2x.png"></a>
+                        <a class="standard-logo pt-lg-0 pt-2" data-dark-logo="images/logo.png" href="#"><img
+                                alt="NGT Tech" src="images/logo.svg" style="height:40px"></a>
                     </div>
                     <div class="header-misc">
                         <a class="button button-rounded ms-3 d-none d-sm-block" href="https://buy.stripe.com/eVa6oA6VX8XmavC5kl">Donate</a>
@@ -251,8 +253,8 @@
                                 <div class="badge rounded-pill badge-default">Package</div>
                                 <h3 class="nott ls0">No Hidden Charges. <br>Choose Your Best Plan.</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore voluptatem
-                                assumenda quae possimus sunt dignissimos tempora officia.</p>
+                           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore voluptatem
+                                assumenda quae possimus sunt dignissimos tempora officia.</p>-->
                         </div>
                         <div class="col-lg-8">
                             <div class="page-section p-0 m-0" id="section-pricing">
